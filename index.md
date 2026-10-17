@@ -1,8 +1,8 @@
 ---
-title: Yukbor
+title: KargoFly
 ---
 
-# Yukbor
+# KargoFly
 
 Посылки с попутчиками между Турцией и Узбекистаном.
 
