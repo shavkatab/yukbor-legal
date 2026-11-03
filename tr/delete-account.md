@@ -1,0 +1,15 @@
+---
+title: KargoFly Hesabının Silinmesi
+permalink: /tr/delete-account/
+lang: tr
+---
+
+[Русский](../../delete-account/) · [O‘zbekcha](../../uz/delete-account/) · **Türkçe**
+
+**Uygulamada:** **Profil → Hesabı sil** bölümünü açın ve silme işlemini onaylayın. Devam eden bir anlaşmanız varken (yanıt kabul edilmiş veya gönderi yolcuya teslim edilmişse) hesap silinemez — önce anlaşmayı tamamlayın veya iptal edin.
+
+**Uygulama olmadan:** Apple veya Google hesabınıza bağlı e-posta adresinizden **shabdiyev@gmail.com** adresine “KargoFly hesabımı sil” konulu bir e-posta gönderin. Hesabınızı 30 gün içinde siler ve e-postanızı yanıtlarız.
+
+**Silinenler:** profil, telefon numarası, pasaport fotoğrafı ve selfie, gönderi fotoğrafları, ilanlar, sohbet mesajları (gönderilen konum ve fotoğraflarla birlikte; yüklenip gönderilmemiş fotoğraflar dahil), bildirim token'ları. Diğer kullanıcılar hakkında yazdığınız yorumlar kalır, ancak adınız olmadan.
+
+Ayrıntılar için [gizlilik politikasına](../privacy/) bakın.
