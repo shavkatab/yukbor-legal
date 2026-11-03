@@ -12,4 +12,4 @@ title: KargoFly
 **O‘zbekcha:** [Maxfiylik siyosati](uz/privacy/) · [Akkauntni o'chirish](uz/delete-account/)  
 **Türkçe:** [Gizlilik politikası](tr/privacy/) · [Hesabı silme](tr/delete-account/)
 
-Контакт: shabdiyev@gmail.com
+Контакт: info@kargofly.uz

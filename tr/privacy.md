@@ -6,12 +6,12 @@ lang: tr
 
 [Русский](../../privacy/) · [O‘zbekcha](../../uz/privacy/) · **Türkçe**
 
-_Sürüm tarihi: 20 Ekim 2026_
+_Sürüm tarihi: 3 Kasım 2026_
 
 KargoFly, gönderi göndermek isteyenlerin Türkiye ile Özbekistan arasında uçan yolcuları bulmasına yardımcı olan bir mobil uygulamadır. Bu politika hangi verileri topladığımızı, neden topladığımızı, bunları kimlerin gördüğünü ve nasıl silebileceğinizi açıklar.
 
-**Veri sorumlusu:** Shavkat Abdiyev (bağımsız geliştirici), Özbekistan.
-**Verilerle ilgili iletişim:** shabdiyev@gmail.com
+**Veri sorumlusu:** Qmind (Shavkat Abdiyev, bireysel girişimci), Özbekistan.
+**Verilerle ilgili iletişim:** info@kargofly.uz
 
 ## 1. Hangi verileri topluyoruz
 
@@ -72,7 +72,7 @@ Veriler, yukarıda belirtilen hizmet sağlayıcıların sunucularında, Özbekis
 
 ## 4. Hesabın silinmesi
 
-Uygulamada: **Profil → Hesabı sil**. Profilinizi, telefon numaranızı, pasaport fotoğrafınızı ve selfie'nizi, gönderi fotoğraflarını, ilanları ve mesajları (gönderilen konum ve sohbetlerdeki fotoğraflarla birlikte — hem gönderilmiş hem de yüklenip gönderilmemiş olanlar) sileriz. Diğer kullanıcılar hakkında yazdığınız yorumlar kalır, ancak adınız olmadan. Devam eden bir anlaşmanız varken (yanıt kabul edilmiş veya gönderi yolcuya teslim edilmişse) hesap silinemez — önce anlaşmayı tamamlayın veya iptal edin. Hesabınızı, hesaba bağlı e-posta adresinizden shabdiyev@gmail.com adresine yazarak da sildirebilirsiniz; bu en fazla 30 gün sürer.
+Uygulamada: **Profil → Hesabı sil**. Profilinizi, telefon numaranızı, pasaport fotoğrafınızı ve selfie'nizi, gönderi fotoğraflarını, ilanları ve mesajları (gönderilen konum ve sohbetlerdeki fotoğraflarla birlikte — hem gönderilmiş hem de yüklenip gönderilmemiş olanlar) sileriz. Diğer kullanıcılar hakkında yazdığınız yorumlar kalır, ancak adınız olmadan. Devam eden bir anlaşmanız varken (yanıt kabul edilmiş veya gönderi yolcuya teslim edilmişse) hesap silinemez — önce anlaşmayı tamamlayın veya iptal edin. Hesabınızı, hesaba bağlı e-posta adresinizden info@kargofly.uz adresine yazarak da sildirebilirsiniz; bu en fazla 30 gün sürer.
 
 ## 5. Yaş sınırı
 

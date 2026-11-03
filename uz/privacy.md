@@ -6,12 +6,12 @@ lang: uz
 
 [Русский](../../privacy/) · **O‘zbekcha** · [Türkçe](../../tr/privacy/)
 
-_2026-yil 20-oktabrdagi tahrir_
+_2026-yil 3-noyabrdagi tahrir_
 
 KargoFly — jo'natuvchilarga Turkiya va O'zbekiston o'rtasida uchadigan sayohatchilarni topishga yordam beradigan mobil ilova. Ushbu siyosat qanday ma'lumotlarni yig'ishimizni, nima uchun yig'ishimizni, ularni kim ko'rishini va ularni qanday o'chirish mumkinligini tushuntiradi.
 
-**Ma'lumotlar operatori:** Shavkat Abdiyev (yakka tartibdagi dasturchi), O'zbekiston.
-**Ma'lumotlar bo'yicha murojaat uchun:** shabdiyev@gmail.com
+**Ma'lumotlar operatori:** Qmind (YaTT Shavkat Abdiyev), O'zbekiston.
+**Ma'lumotlar bo'yicha murojaat uchun:** info@kargofly.uz
 
 ## 1. Qanday ma'lumotlarni yig'amiz
 
@@ -72,7 +72,7 @@ Ma'lumotlar yuqorida ko'rsatilgan pudratchilarning serverlarida, jumladan O'zbek
 
 ## 4. Akkauntni o'chirish
 
-Ilovada: **Profil → Akkauntni o'chirish**. Biz profilni, telefon raqamini, pasport surati va selfini, jo'natma rasmlarini, e'lonlar va xabarlarni (yuborilgan joylashuv va chatlardagi rasmlar bilan birga — yuborilganlari ham, yuklangan, lekin yuborilmaganlari ham) o'chiramiz. Boshqa foydalanuvchilar haqida qoldirgan sharhlaringiz qoladi, lekin ismingizsiz. Ishdagi kelishuvingiz bor ekan (javob qabul qilingan yoki jo'natma hamrohga topshirilgan), akkauntni o'chirib bo'lmaydi — avval kelishuvni yakunlang yoki bekor qiling. Akkauntni shabdiyev@gmail.com manziliga akkauntga bog'langan e-mail orqali yozib ham o'chirish mumkin; muddat — 30 kungacha.
+Ilovada: **Profil → Akkauntni o'chirish**. Biz profilni, telefon raqamini, pasport surati va selfini, jo'natma rasmlarini, e'lonlar va xabarlarni (yuborilgan joylashuv va chatlardagi rasmlar bilan birga — yuborilganlari ham, yuklangan, lekin yuborilmaganlari ham) o'chiramiz. Boshqa foydalanuvchilar haqida qoldirgan sharhlaringiz qoladi, lekin ismingizsiz. Ishdagi kelishuvingiz bor ekan (javob qabul qilingan yoki jo'natma hamrohga topshirilgan), akkauntni o'chirib bo'lmaydi — avval kelishuvni yakunlang yoki bekor qiling. Akkauntni info@kargofly.uz manziliga akkauntga bog'langan e-mail orqali yozib ham o'chirish mumkin; muddat — 30 kungacha.
 
 ## 5. Yosh chegarasi
 

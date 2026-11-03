@@ -1,6 +1,11 @@
 title: KargoFly
 lang: ru
 theme: minima
+# The site lives at the root of the custom domain kargofly.uz (set in the repo's Pages settings).
+# An explicit empty baseurl stops GitHub Pages from filling in "/yukbor-legal", so before the
+# custom domain is set, theme assets and menu links on shavkatab.github.io/yukbor-legal break.
+url: https://kargofly.uz
+baseurl: ''
 # Top menu: the Russian pages only; UZ and TR are reached by the language links on each page.
 header_pages:
   - privacy.md
