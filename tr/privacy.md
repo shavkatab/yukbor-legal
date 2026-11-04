@@ -6,9 +6,9 @@ lang: tr
 
 [Русский](../../privacy/) · [O‘zbekcha](../../uz/privacy/) · **Türkçe**
 
-_Sürüm tarihi: 3 Kasım 2026_
+_Sürüm tarihi: 5 Kasım 2026_
 
-KargoFly, gönderi göndermek isteyenlerin Türkiye ile Özbekistan arasında uçan yolcuları bulmasına yardımcı olan bir mobil uygulamadır. Bu politika hangi verileri topladığımızı, neden topladığımızı, bunları kimlerin gördüğünü ve nasıl silebileceğinizi açıklar.
+KargoFly, gönderi göndermek isteyenlerin Özbekistan ile diğer ülkeler — Türkiye, Rusya, Güney Kore, ABD, Çin, BAE, Kazakistan, Suudi Arabistan ve Almanya — arasında uçan yolcuları bulmasına yardımcı olan bir mobil uygulamadır. Bu politika hangi verileri topladığımızı, neden topladığımızı, bunları kimlerin gördüğünü ve nasıl silebileceğinizi açıklar.
 
 **Veri sorumlusu:** Qmind (Shavkat Abdiyev, bireysel girişimci), Özbekistan.
 **Verilerle ilgili iletişim:** info@kargofly.uz
@@ -31,7 +31,9 @@ Konumunuzu arka planda **toplamayız** ve siz düğmeye basmadan belirlemeyiz; t
 
 ### Telefon numarası ve doğrulama kodu
 
-İlan yayınlamak ve yanıt vermek için telefon numaranızı doğrulamanız gerekir. 6 haneli kodu Telegram Gateway üzerinden (Telegram mesajı olarak) göndeririz; bu başarısız olursa veya SMS isterseniz Eskiz SMS hizmeti üzerinden göndeririz. Bunun için onlara telefon numaranızı, kodu içeren metni ve SMS için mesajın dilini iletiriz. Kodun kendisini yalnızca geri döndürülemez bir özet (hash) olarak saklarız; kod 5 dakika geçerlidir.
+İlan yayınlamak ve yanıt vermek için telefon numaranızı doğrulamanız gerekir. Özbekistan'ın ve yukarıda sayılan dokuz güzergâh ülkesinin cep telefonu numaraları kabul edilir. 6 haneli kodu Telegram Gateway üzerinden (Telegram mesajı olarak) göndeririz; bu başarısız olursa veya SMS isterseniz Eskiz SMS hizmeti üzerinden göndeririz. Özbekistan dışındaki numaralara Eskiz uluslararası SMS gönderir. Çin numaralarına kod Telegram kullanılmadan doğrudan SMS ile gider, çünkü orada Telegram'a erişilemez. Bunun için onlara telefon numaranızı, kodu içeren metni ve SMS için mesajın dilini ve numaranın ülkesini iletiriz. Kodun kendisini yalnızca geri döndürülemez bir özet (hash) olarak saklarız; kod 5 dakika geçerlidir.
+
+Uluslararası SMS ücretlidir; bu yüzden günlük sayısı hem hesap başına hem de uygulamanın tamamı için sınırlıdır. Bu sayım için Özbekistan dışındaki bir numaraya gönderilen her SMS'i kaydederiz: hesap kimliği, numaranın ülkesi ve gönderim zamanı. Bu kayıtta numaranın kendisi ve kod yer almaz. Telegram üzerinden gönderilen kodlar ve Özbekistan numaralarına giden SMS'ler bu sayıma girmez. Bu kayıtlar şu an süre sınırı olmadan saklanır ve hesap silindikten sonra da kalır — ancak adınız, e-postanız ve telefon numaranızla bağlantısı kalmaz, çünkü bunlar hesap silinirken silinir.
 
 ### Pasaport fotoğrafı ve selfie
 
@@ -59,7 +61,7 @@ Konum yalnızca anlaşma sohbetine gönderilebilir: “Şu an neredeyim” ya da
 - **Verileri bizim adımıza işleyen hizmet sağlayıcılar:**
   - sunucu, veritabanı ve dosya deposu barındırma — Railway;
   - anlık bildirimlerin iletilmesi — Expo Push Service, Android için Firebase Cloud Messaging (Google), iPhone için Apple Push Notification service; bunlar cihaz token'ını ve bildirim metnini alır (sohbet mesajlarında mesajın başı, fotoğraflarda fotoğrafın kendisi olmadan yalnızca “📷 Fotoğraf”);
-  - doğrulama kodlarının gönderilmesi — Telegram Gateway, Eskiz;
+  - doğrulama kodlarının gönderilmesi — Telegram Gateway, Eskiz (uluslararası SMS dahil);
   - moderatörün Telegram botu — Telegram;
   - giriş — Apple, Google;
   - sohbette buluşma yeri seçerken haritanın gösterilmesi — Android'de Google Maps (Google LLC), iPhone'da Apple Maps: onlara adınızı, telefon numaranızı ve mesajlarınızı iletmeyiz; haritayı göstermek için cihazdan haritanın görüntülenen alanını, IP adresini ve cihazla ilgili teknik bilgileri alır ve bunları kendi gizlilik politikalarına göre işlerler.
@@ -68,11 +70,11 @@ Verileri satmayız ve reklam ağlarına aktarmayız.
 
 ## 3. Veriler nerede ve ne kadar süre saklanır
 
-Veriler, yukarıda belirtilen hizmet sağlayıcıların sunucularında, Özbekistan ve Türkiye dışında da saklanır. Verileri hesabınız var olduğu sürece saklarız. Sunucu kayıtları en fazla 30 gün saklanır. Pasaport fotoğrafı, selfie ve sohbet fotoğraflarının saklama süreleri Bölüm 1'de yer alır.
+Tüm ülkelerdeki kullanıcıların verileri bir arada, yukarıda belirtilen hizmet sağlayıcıların sunucularında saklanır; bu sunucular Özbekistan'ın ve bulunduğunuz ülkenin dışında da olabilir. Verileri hesabınız var olduğu sürece saklarız. Sunucu kayıtları en fazla 30 gün saklanır. Pasaport fotoğrafı, selfie, sohbet fotoğrafları ve uluslararası SMS kayıtlarının saklama süreleri Bölüm 1'de yer alır.
 
 ## 4. Hesabın silinmesi
 
-Uygulamada: **Profil → Hesabı sil**. Profilinizi, telefon numaranızı, pasaport fotoğrafınızı ve selfie'nizi, gönderi fotoğraflarını, ilanları ve mesajları (gönderilen konum ve sohbetlerdeki fotoğraflarla birlikte — hem gönderilmiş hem de yüklenip gönderilmemiş olanlar) sileriz. Diğer kullanıcılar hakkında yazdığınız yorumlar kalır, ancak adınız olmadan. Devam eden bir anlaşmanız varken (yanıt kabul edilmiş veya gönderi yolcuya teslim edilmişse) hesap silinemez — önce anlaşmayı tamamlayın veya iptal edin. Hesabınızı, hesaba bağlı e-posta adresinizden info@kargofly.uz adresine yazarak da sildirebilirsiniz; bu en fazla 30 gün sürer.
+Uygulamada: **Profil → Hesabı sil**. Profilinizi, telefon numaranızı, pasaport fotoğrafınızı ve selfie'nizi, gönderi fotoğraflarını, ilanları ve mesajları (gönderilen konum ve sohbetlerdeki fotoğraflarla birlikte — hem gönderilmiş hem de yüklenip gönderilmemiş olanlar) sileriz. Diğer kullanıcılar hakkında yazdığınız yorumlar kalır, ancak adınız olmadan. Uluslararası SMS kayıtları (Bölüm 1) da kalır — numara, ad ve e-posta olmadan. Devam eden bir anlaşmanız varken (yanıt kabul edilmiş veya gönderi yolcuya teslim edilmişse) hesap silinemez — önce anlaşmayı tamamlayın veya iptal edin. Hesabınızı, hesaba bağlı e-posta adresinizden info@kargofly.uz adresine yazarak da sildirebilirsiniz; bu en fazla 30 gün sürer.
 
 ## 5. Yaş sınırı
 
