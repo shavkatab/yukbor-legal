@@ -169,25 +169,15 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 @media (min-width: 560px) { .btn-get { display: inline-block; } }
 @media (min-width: 960px) { .nav { display: flex; } }
 
-/* ---------- Store buttons ---------- */
+/* ---------- Store badges ----------
+   Official Apple and Google badges, used as-is: same height (48px, Apple minimum 40px),
+   clear space of at least a quarter of the height between and around them, no recolouring,
+   no transforms or hover effects on the artwork itself. */
 
-.stores { display: flex; flex-wrap: wrap; gap: 12px; }
-.store {
-  display: inline-flex; align-items: center; gap: 12px;
-  min-width: 188px; padding: 11px 20px 11px 16px; border-radius: 16px;
-  text-decoration: none; line-height: 1.15;
-  background: var(--on-sky); color: oklch(0.2 0.03 var(--hue));
-  box-shadow: 0 1px 0 oklch(1 0 0 / 0.4) inset, 0 8px 20px oklch(0.15 0.1 var(--hue) / 0.25);
-  transition: transform 160ms var(--ease-out), box-shadow 200ms var(--ease-out);
-}
-.store svg { width: 26px; height: 26px; flex: none; }
-.store small { display: block; font-size: 12px; font-weight: 600; opacity: 0.72; }
-.store strong { display: block; font-size: 18px; font-weight: 800; letter-spacing: -0.01em; }
-.store:active { transform: scale(0.97); }
-@media (hover: hover) and (pointer: fine) {
-  .store:hover { transform: translateY(-2px); box-shadow: 0 1px 0 oklch(1 0 0 / 0.4) inset, 0 14px 28px oklch(0.15 0.1 var(--hue) / 0.32); }
-  .store:active { transform: scale(0.97); }
-}
+.stores { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.store { display: block; flex: none; border-radius: 9px; line-height: 0; text-decoration: none; }
+.store img { display: block; width: auto; height: 48px; max-width: none; }
+.store:focus-visible { outline-offset: 4px; border-radius: 10px; }
 
 /* ---------- Hero ---------- */
 
@@ -479,7 +469,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     linear-gradient(155deg, var(--sky-1), var(--sky-2));
 }
 .cta .wrap { display: grid; gap: 32px; padding-top: clamp(56px, 8vw, 96px); padding-bottom: clamp(56px, 8vw, 96px); }
-.cta img { width: 72px; height: 72px; border-radius: 18px; box-shadow: 0 12px 30px oklch(0.1 0.08 var(--hue) / 0.4); }
+.cta .cta-icon { width: 72px; height: 72px; border-radius: 18px; box-shadow: 0 12px 30px oklch(0.1 0.08 var(--hue) / 0.4); }
 .cta h2 { font-size: clamp(32px, 5vw, 56px); max-width: 16ch; }
 .cta p { color: var(--on-sky-2); font-size: 18px; max-width: 32em; margin-top: 14px; }
 .cta-sky { position: absolute; inset: 0; z-index: -1; color: var(--on-sky); }
