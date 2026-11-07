@@ -6,9 +6,9 @@ lang: uz
 
 [Русский](../../privacy/) · **O‘zbekcha** · [Türkçe](../../tr/privacy/)
 
-_2026-yil 3-noyabrdagi tahrir_
+_2026-yil 5-noyabrdagi tahrir_
 
-KargoFly — jo'natuvchilarga Turkiya va O'zbekiston o'rtasida uchadigan sayohatchilarni topishga yordam beradigan mobil ilova. Ushbu siyosat qanday ma'lumotlarni yig'ishimizni, nima uchun yig'ishimizni, ularni kim ko'rishini va ularni qanday o'chirish mumkinligini tushuntiradi.
+KargoFly — jo'natuvchilarga O'zbekiston va boshqa davlatlar — Turkiya, Rossiya, Janubiy Koreya, AQSH, Xitoy, BAA, Qozog'iston, Saudiya Arabistoni va Germaniya o'rtasida uchadigan sayohatchilarni topishga yordam beradigan mobil ilova. Ushbu siyosat qanday ma'lumotlarni yig'ishimizni, nima uchun yig'ishimizni, ularni kim ko'rishini va ularni qanday o'chirish mumkinligini tushuntiradi.
 
 **Ma'lumotlar operatori:** Qmind (YaTT Shavkat Abdiyev), O'zbekiston.
 **Ma'lumotlar bo'yicha murojaat uchun:** info@kargofly.uz
@@ -31,7 +31,9 @@ Biz joylashuvni fonda **yig'maymiz** va tugmani o'zingiz bosmaguningizcha uni an
 
 ### Telefon raqami va tasdiqlash kodi
 
-E'lon joylash va javob berish uchun telefon raqamingizni tasdiqlashingiz kerak. 6 xonali kodni Telegram Gateway orqali (Telegram'dagi xabar sifatida) yuboramiz, bu amalga oshmasa yoki SMS so'rasangiz — Eskiz SMS-xizmati orqali. Buning uchun ularga telefon raqamingizni, kod yozilgan matnni va SMS uchun xabar tilini uzatamiz. Kodning o'zini biz faqat qaytarib bo'lmaydigan xesh ko'rinishida saqlaymiz, u 5 daqiqa amal qiladi.
+E'lon joylash va javob berish uchun telefon raqamingizni tasdiqlashingiz kerak. O'zbekiston va yuqorida sanab o'tilgan to'qqizta yo'nalish davlatining mobil raqamlari qabul qilinadi. 6 xonali kodni Telegram Gateway orqali (Telegram'dagi xabar sifatida) yuboramiz, bu amalga oshmasa yoki SMS so'rasangiz — Eskiz SMS-xizmati orqali; O'zbekistondan tashqaridagi raqamlarga Eskiz xalqaro SMS yuboradi. Xitoy raqamlariga kod Telegram'siz, darhol SMS orqali yuboriladi: u yerda Telegram ishlamaydi. Buning uchun ularga telefon raqamingizni, kod yozilgan matnni va SMS uchun xabar tilini hamda raqam qaysi davlatniki ekanini uzatamiz. Kodning o'zini biz faqat qaytarib bo'lmaydigan xesh ko'rinishida saqlaymiz, u 5 daqiqa amal qiladi.
+
+Xalqaro SMS pullik, shuning uchun ularning bir sutkadagi soni cheklangan — bitta akkaunt uchun ham, butun ilova uchun ham. Shu hisob uchun O'zbekistondan tashqaridagi raqamga yuborilgan har bir SMS'ni yozib boramiz: akkaunt identifikatori, raqam davlati va yuborilgan vaqt. Bu yozuvda raqamning o'zi ham, kod ham yo'q. Telegram orqali yuborilgan kodlar va O'zbekiston raqamlariga SMS bu hisobga kirmaydi. Bunday yozuvlar 30 kun saqlanadi, keyin o'chiriladi — akkaunt o'chirilgan bo'lsa ham: shu muddatgacha ular qoladi, lekin ismingiz, e-mail va telefon raqamingiz bilan bog'liq bo'lmaydi: ular akkaunt o'chirilganda o'chiriladi.
 
 ### Pasport surati va selfi
 
@@ -59,7 +61,7 @@ Joylashuvni faqat kelishuv chatiga yuborish mumkin — «hozir qayerdaman» yoki
 - **Ma'lumotlarni bizning topshirig'imiz bilan qayta ishlaydigan pudratchilar:**
   - server, ma'lumotlar bazasi va fayl omborining xostingi — Railway;
   - push-bildirishnomalarni yetkazish — Expo Push Service, Android uchun Firebase Cloud Messaging (Google), iPhone uchun Apple Push Notification service; ular qurilma tokenini va bildirishnoma matnini oladi (chat xabarlari uchun — xabarning boshi, rasmlar uchun — suratsiz, faqat «📷 Rasm»);
-  - tasdiqlash kodlarini yuborish — Telegram Gateway, Eskiz;
+  - tasdiqlash kodlarini yuborish — Telegram Gateway, Eskiz (jumladan xalqaro SMS);
   - moderatorning Telegram-boti — Telegram;
   - kirish — Apple, Google;
   - chatda uchrashuv joyini tanlashda xaritani ko'rsatish — Android'da Google Maps (Google LLC), iPhone'da Apple Maps: biz ularga ismingiz, telefon raqamingiz va xabarlaringizni bermaymiz; xaritani ko'rsatish uchun ular qurilmadan xaritaning ko'rsatilayotgan hududini, IP-manzilni va qurilma haqidagi texnik ma'lumotlarni oladi hamda ularni o'z maxfiylik siyosatiga muvofiq qayta ishlaydi.
@@ -68,11 +70,11 @@ Biz ma'lumotlarni sotmaymiz va reklama tarmoqlariga bermaymiz.
 
 ## 3. Ma'lumotlar qayerda va qancha muddat saqlanadi
 
-Ma'lumotlar yuqorida ko'rsatilgan pudratchilarning serverlarida, jumladan O'zbekiston va Turkiyadan tashqarida saqlanadi. Ma'lumotlarni akkauntingiz mavjud ekan saqlaymiz. Server jurnallari 30 kungacha saqlanadi. Pasport surati, selfi va chatdagi rasmlarning saqlanish muddatlari 1-bo'limda keltirilgan.
+Barcha davlatlardagi foydalanuvchilarning ma'lumotlari bir joyda — yuqorida ko'rsatilgan pudratchilarning serverlarida, jumladan O'zbekistondan va siz turgan davlatdan tashqarida saqlanadi. Ma'lumotlarni akkauntingiz mavjud ekan saqlaymiz. Server jurnallari 30 kungacha saqlanadi. Pasport surati, selfi, chatdagi rasmlar va xalqaro SMS yozuvlarining saqlanish muddatlari 1-bo'limda keltirilgan.
 
 ## 4. Akkauntni o'chirish
 
-Ilovada: **Profil → Akkauntni o'chirish**. Biz profilni, telefon raqamini, pasport surati va selfini, jo'natma rasmlarini, e'lonlar va xabarlarni (yuborilgan joylashuv va chatlardagi rasmlar bilan birga — yuborilganlari ham, yuklangan, lekin yuborilmaganlari ham) o'chiramiz. Boshqa foydalanuvchilar haqida qoldirgan sharhlaringiz qoladi, lekin ismingizsiz. Ishdagi kelishuvingiz bor ekan (javob qabul qilingan yoki jo'natma hamrohga topshirilgan), akkauntni o'chirib bo'lmaydi — avval kelishuvni yakunlang yoki bekor qiling. Akkauntni info@kargofly.uz manziliga akkauntga bog'langan e-mail orqali yozib ham o'chirish mumkin; muddat — 30 kungacha.
+Ilovada: **Profil → Akkauntni o'chirish**. Biz profilni, telefon raqamini, pasport surati va selfini, jo'natma rasmlarini, e'lonlar va xabarlarni (yuborilgan joylashuv va chatlardagi rasmlar bilan birga — yuborilganlari ham, yuklangan, lekin yuborilmaganlari ham) o'chiramiz. Boshqa foydalanuvchilar haqida qoldirgan sharhlaringiz qoladi, lekin ismingizsiz. Xalqaro SMS yozuvlari (1-bo'lim) yuborilganidan keyin 30 kungacha qoladi — raqam, ism va e-mailsiz, — keyin o'chiriladi. Ishdagi kelishuvingiz bor ekan (javob qabul qilingan yoki jo'natma hamrohga topshirilgan), akkauntni o'chirib bo'lmaydi — avval kelishuvni yakunlang yoki bekor qiling. Akkauntni info@kargofly.uz manziliga akkauntga bog'langan e-mail orqali yozib ham o'chirish mumkin; muddat — 30 kungacha.
 
 ## 5. Yosh chegarasi
 
