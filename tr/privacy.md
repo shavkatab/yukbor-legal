@@ -8,7 +8,7 @@ lang: tr
 
 _Sürüm tarihi: 8 Kasım 2026_
 
-KargoFly, gönderi göndermek isteyenlerin Özbekistan ile diğer ülkeler — Türkiye, Rusya, Güney Kore, ABD, Çin, BAE, Kazakistan, Suudi Arabistan ve Almanya — arasında uçan yolcuları bulmasına yardımcı olan bir mobil uygulamadır. Bu politika hangi verileri topladığımızı, neden topladığımızı, bunları kimlerin gördüğünü ve nasıl silebileceğinizi açıklar.
+KargoFly, gönderi göndermek isteyenlerin Özbekistan ile diğer ülkeler — Türkiye, Rusya, Güney Kore, ABD, Çin, BAE, Kazakistan, Suudi Arabistan, Almanya, Kırgızistan ve Tacikistan — arasında uçakla veya arabayla seyahat eden yolcuları (arabayla yalnızca Kazakistan, Kırgızistan, Tacikistan ve Rusya ile) bulmasına yardımcı olan bir mobil uygulamadır. Bu politika hangi verileri topladığımızı, neden topladığımızı, bunları kimlerin gördüğünü ve nasıl silebileceğinizi açıklar.
 
 **Veri sorumlusu:** Qmind (Shavkat Abdiyev, bireysel girişimci), Özbekistan.
 **Verilerle ilgili iletişim:** info@kargofly.uz
@@ -20,7 +20,7 @@ KargoFly, gönderi göndermek isteyenlerin Özbekistan ile diğer ülkeler — T
 | Ad, e-posta, Apple veya Google hesap kimliği | Apple / Google ile giriş yaptığınızda | hesap oluşturmak ve hesaba giriş yapmak |
 | Telefon numarası | siz girer ve 6 haneli kodla doğrularsınız | anlaşma onaylandıktan sonra tarafların iletişim kurması, sahte hesaplara karşı koruma |
 | Pasaportun fotoğraflı sayfası ve pasaportla selfie — isteğe bağlı | uygulamadaki kamerayla çekersiniz (galeriden seçilemez) | kimliğinizin moderatör tarafından doğrulanması ve profildeki “Pasaport doğrulandı” işareti |
-| İlanlar: yolculuklar ve gönderiler (şehirler, tarihler, ağırlık, fiyat, açıklama, gönderi fotoğrafları) | siz yayınlarsınız | ilanı diğer kullanıcılara göstermek |
+| İlanlar: yolculuklar ve gönderiler (şehirler, tarihler, ulaşım türü — uçak veya araba, ağırlık, fiyat, açıklama, gönderi fotoğrafları) | siz yayınlarsınız | ilanı diğer kullanıcılara göstermek |
 | Anlaşmalar, sohbet mesajları, yorumlar, şikâyetler, engellemeler | uygulamadaki işlemleriniz | anlaşmanın yürütülmesi, topluluğun güvenliği |
 | Anlaşma sohbetindeki fotoğraflar | kendiniz gönderirsiniz: kamerayla çeker veya galeriden seçersiniz | anlaşmanın diğer tarafıyla fotoğraf paylaşmak |
 | Konum — anlaşma sohbetine gönderdiğiniz nokta | yalnızca “Konum gönder” düğmesine kendiniz bastığınızda | buluşma yerinde anlaşmak |
@@ -32,7 +32,7 @@ Konumunuzu arka planda **toplamayız** ve anlaşma sohbetine kendiniz gönderdi�
 
 ### Telefon numarası ve doğrulama kodu
 
-İlan yayınlamak ve yanıt vermek için telefon numaranızı doğrulamanız gerekir. Özbekistan'ın ve yukarıda sayılan dokuz güzergâh ülkesinin cep telefonu numaraları kabul edilir. 6 haneli kodu Telegram Gateway üzerinden (Telegram mesajı olarak) göndeririz; bu başarısız olursa veya SMS isterseniz Eskiz SMS hizmeti üzerinden göndeririz. Özbekistan dışındaki numaralara Eskiz uluslararası SMS gönderir. Çin numaralarına kod Telegram kullanılmadan doğrudan SMS ile gider, çünkü orada Telegram'a erişilemez. Bunun için onlara telefon numaranızı, kodu içeren metni ve SMS için mesajın dilini ve numaranın ülkesini iletiriz. Kodun kendisini yalnızca geri döndürülemez bir özet (hash) olarak saklarız; kod 5 dakika geçerlidir.
+İlan yayınlamak ve yanıt vermek için telefon numaranızı doğrulamanız gerekir. Özbekistan'ın ve yukarıda sayılan on bir güzergâh ülkesinin cep telefonu numaraları kabul edilir. 6 haneli kodu Telegram Gateway üzerinden (Telegram mesajı olarak) göndeririz; bu başarısız olursa veya SMS isterseniz Eskiz SMS hizmeti üzerinden göndeririz. Özbekistan dışındaki numaralara Eskiz uluslararası SMS gönderir. Çin numaralarına kod Telegram kullanılmadan doğrudan SMS ile gider, çünkü orada Telegram'a erişilemez. Bunun için onlara telefon numaranızı, kodu içeren metni ve SMS için mesajın dilini ve numaranın ülkesini iletiriz. Kodun kendisini yalnızca geri döndürülemez bir özet (hash) olarak saklarız; kod 5 dakika geçerlidir.
 
 Uluslararası SMS ücretlidir; bu yüzden günlük sayısı hem hesap başına hem de uygulamanın tamamı için sınırlıdır. Bu sayım için Özbekistan dışındaki bir numaraya gönderilen her SMS'i kaydederiz: hesap kimliği, numaranın ülkesi ve gönderim zamanı. Bu kayıtta numaranın kendisi ve kod yer almaz. Telegram üzerinden gönderilen kodlar ve Özbekistan numaralarına giden SMS'ler bu sayıma girmez. Bu kayıtlar 30 gün saklanır, ardından silinir — hesap silinmiş olsa bile: bu süre dolana kadar kalırlar, ancak adınız, e-postanız ve telefon numaranızla bağlantıları kalmaz, çünkü bunlar hesap silinirken silinir.
 
