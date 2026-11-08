@@ -8,7 +8,7 @@ lang: uz
 
 _2026-yil 8-noyabrdagi tahrir_
 
-KargoFly — jo'natuvchilarga O'zbekiston va boshqa davlatlar — Turkiya, Rossiya, Janubiy Koreya, AQSH, Xitoy, BAA, Qozog'iston, Saudiya Arabistoni va Germaniya o'rtasida uchadigan sayohatchilarni topishga yordam beradigan mobil ilova. Ushbu siyosat qanday ma'lumotlarni yig'ishimizni, nima uchun yig'ishimizni, ularni kim ko'rishini va ularni qanday o'chirish mumkinligini tushuntiradi.
+KargoFly — jo'natuvchilarga O'zbekiston va boshqa davlatlar — Turkiya, Rossiya, Janubiy Koreya, AQSH, Xitoy, BAA, Qozog'iston, Saudiya Arabistoni, Germaniya, Qirg'iziston va Tojikiston o'rtasida samolyotda uchadigan yoki mashinada yuradigan sayohatchilarni topishga yordam beradigan mobil ilova (mashinada — faqat Qozog'iston, Qirg'iziston, Tojikiston va Rossiya bilan). Ushbu siyosat qanday ma'lumotlarni yig'ishimizni, nima uchun yig'ishimizni, ularni kim ko'rishini va ularni qanday o'chirish mumkinligini tushuntiradi.
 
 **Ma'lumotlar operatori:** Qmind (YaTT Shavkat Abdiyev), O'zbekiston.
 **Ma'lumotlar bo'yicha murojaat uchun:** info@kargofly.uz
@@ -20,7 +20,7 @@ KargoFly — jo'natuvchilarga O'zbekiston va boshqa davlatlar — Turkiya, Rossi
 | Ism, e-mail, Apple yoki Google akkaunti identifikatori | Apple / Google orqali kirganingizda | akkaunt yaratish va unga kirish |
 | Telefon raqami | o'zingiz kiritasiz va 6 xonali kod bilan tasdiqlaysiz | kelishuvga rozilikdan keyin tomonlarni bog'lash, soxta akkauntlardan himoya |
 | Pasportning rasmli sahifasi surati va pasport bilan selfi — ixtiyoriy | ilovadagi kamera bilan olasiz (galereyadan tanlab bo'lmaydi) | moderator shaxsingizni tekshirishi va profildagi «Pasport tasdiqlangan» belgisi |
-| E'lonlar: reyslar va jo'natmalar (shaharlar, sanalar, vazn, narx, tavsif, jo'natma rasmlari) | o'zingiz joylaysiz | e'lonni boshqa foydalanuvchilarga ko'rsatish |
+| E'lonlar: reyslar va jo'natmalar (shaharlar, sanalar, transport turi — samolyot yoki mashina, vazn, narx, tavsif, jo'natma rasmlari) | o'zingiz joylaysiz | e'lonni boshqa foydalanuvchilarga ko'rsatish |
 | Kelishuvlar, chatdagi xabarlar, sharhlar, shikoyatlar, bloklashlar | ilovadagi harakatlaringiz | kelishuvning ishlashi, hamjamiyat xavfsizligi |
 | Kelishuv chatidagi rasmlar | o'zingiz yuborasiz: kamera bilan olasiz yoki galereyadan tanlaysiz | kelishuvning ikkinchi tomoni bilan rasm almashish |
 | Joylashuv — kelishuv chatiga o'zingiz yuborgan nuqta | faqat o'zingiz «Joylashuvni yuborish» tugmasini bosganingizda | uchrashuv joyini kelishib olish |
@@ -32,7 +32,7 @@ Biz joylashuvni fonda **yig'maymiz** va kelishuv chatiga o'zingiz yuborgan nuqta
 
 ### Telefon raqami va tasdiqlash kodi
 
-E'lon joylash va javob berish uchun telefon raqamingizni tasdiqlashingiz kerak. O'zbekiston va yuqorida sanab o'tilgan to'qqizta yo'nalish davlatining mobil raqamlari qabul qilinadi. 6 xonali kodni Telegram Gateway orqali (Telegram'dagi xabar sifatida) yuboramiz, bu amalga oshmasa yoki SMS so'rasangiz — Eskiz SMS-xizmati orqali; O'zbekistondan tashqaridagi raqamlarga Eskiz xalqaro SMS yuboradi. Xitoy raqamlariga kod Telegram'siz, darhol SMS orqali yuboriladi: u yerda Telegram ishlamaydi. Buning uchun ularga telefon raqamingizni, kod yozilgan matnni va SMS uchun xabar tilini hamda raqam qaysi davlatniki ekanini uzatamiz. Kodning o'zini biz faqat qaytarib bo'lmaydigan xesh ko'rinishida saqlaymiz, u 5 daqiqa amal qiladi.
+E'lon joylash va javob berish uchun telefon raqamingizni tasdiqlashingiz kerak. O'zbekiston va yuqorida sanab o'tilgan o'n bitta yo'nalish davlatining mobil raqamlari qabul qilinadi. 6 xonali kodni Telegram Gateway orqali (Telegram'dagi xabar sifatida) yuboramiz, bu amalga oshmasa yoki SMS so'rasangiz — Eskiz SMS-xizmati orqali; O'zbekistondan tashqaridagi raqamlarga Eskiz xalqaro SMS yuboradi. Xitoy raqamlariga kod Telegram'siz, darhol SMS orqali yuboriladi: u yerda Telegram ishlamaydi. Buning uchun ularga telefon raqamingizni, kod yozilgan matnni va SMS uchun xabar tilini hamda raqam qaysi davlatniki ekanini uzatamiz. Kodning o'zini biz faqat qaytarib bo'lmaydigan xesh ko'rinishida saqlaymiz, u 5 daqiqa amal qiladi.
 
 Xalqaro SMS pullik, shuning uchun ularning bir sutkadagi soni cheklangan — bitta akkaunt uchun ham, butun ilova uchun ham. Shu hisob uchun O'zbekistondan tashqaridagi raqamga yuborilgan har bir SMS'ni yozib boramiz: akkaunt identifikatori, raqam davlati va yuborilgan vaqt. Bu yozuvda raqamning o'zi ham, kod ham yo'q. Telegram orqali yuborilgan kodlar va O'zbekiston raqamlariga SMS bu hisobga kirmaydi. Bunday yozuvlar 30 kun saqlanadi, keyin o'chiriladi — akkaunt o'chirilgan bo'lsa ham: shu muddatgacha ular qoladi, lekin ismingiz, e-mail va telefon raqamingiz bilan bog'liq bo'lmaydi: ular akkaunt o'chirilganda o'chiriladi.
 
