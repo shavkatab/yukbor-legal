@@ -6,7 +6,7 @@ lang: uz
 
 [Русский](../../privacy/) · **O‘zbekcha** · [Türkçe](../../tr/privacy/)
 
-_2026-yil 5-noyabrdagi tahrir_
+_2026-yil 8-noyabrdagi tahrir_
 
 KargoFly — jo'natuvchilarga O'zbekiston va boshqa davlatlar — Turkiya, Rossiya, Janubiy Koreya, AQSH, Xitoy, BAA, Qozog'iston, Saudiya Arabistoni va Germaniya o'rtasida uchadigan sayohatchilarni topishga yordam beradigan mobil ilova. Ushbu siyosat qanday ma'lumotlarni yig'ishimizni, nima uchun yig'ishimizni, ularni kim ko'rishini va ularni qanday o'chirish mumkinligini tushuntiradi.
 
@@ -19,15 +19,16 @@ KargoFly — jo'natuvchilarga O'zbekiston va boshqa davlatlar — Turkiya, Rossi
 |---|---|---|
 | Ism, e-mail, Apple yoki Google akkaunti identifikatori | Apple / Google orqali kirganingizda | akkaunt yaratish va unga kirish |
 | Telefon raqami | o'zingiz kiritasiz va 6 xonali kod bilan tasdiqlaysiz | kelishuvga rozilikdan keyin tomonlarni bog'lash, soxta akkauntlardan himoya |
-| Pasportning rasmli sahifasi surati va pasport bilan selfi | ilovadagi kamera bilan olasiz (galereyadan tanlab bo'lmaydi) | moderator shaxsingizni tekshirishi |
+| Pasportning rasmli sahifasi surati va pasport bilan selfi — ixtiyoriy | ilovadagi kamera bilan olasiz (galereyadan tanlab bo'lmaydi) | moderator shaxsingizni tekshirishi va profildagi «Pasport tasdiqlangan» belgisi |
 | E'lonlar: reyslar va jo'natmalar (shaharlar, sanalar, vazn, narx, tavsif, jo'natma rasmlari) | o'zingiz joylaysiz | e'lonni boshqa foydalanuvchilarga ko'rsatish |
 | Kelishuvlar, chatdagi xabarlar, sharhlar, shikoyatlar, bloklashlar | ilovadagi harakatlaringiz | kelishuvning ishlashi, hamjamiyat xavfsizligi |
 | Kelishuv chatidagi rasmlar | o'zingiz yuborasiz: kamera bilan olasiz yoki galereyadan tanlaysiz | kelishuvning ikkinchi tomoni bilan rasm almashish |
 | Joylashuv — kelishuv chatiga o'zingiz yuborgan nuqta | faqat o'zingiz «Joylashuvni yuborish» tugmasini bosganingizda | uchrashuv joyini kelishib olish |
 | Push-bildirishnomalar tokeni, ilova tili | qurilmadan | bildirishnomalarni o'z tilingizda yuborish |
 | Serverning texnik jurnallari (IP-manzil, so'rov vaqti) | avtomatik | xavfsizlik va xatolarni tuzatish |
+| Nosozliklar haqidagi hisobotlar va diagnostika: chaqiruvlar steki, qurilma modeli, OT va ilova versiyasi, nosozlik vaqti, akkauntning ichki identifikatori (ism, telefon raqami va e-mailsiz) | nosozlik yuz berganda avtomatik, faqat App Store va Google Play'dagi ilova versiyalarida | nosozliklarni topish va tuzatish |
 
-Biz joylashuvni fonda **yig'maymiz** va tugmani o'zingiz bosmaguningizcha uni aniqlamaymiz, telefondagi kontaktlarni o'qimaymiz, to'lov ma'lumotlarini yig'maymiz, reklama identifikatorlari, analitika va nosozliklar haqida hisobot yig'uvchi xizmatlardan foydalanmaymiz. Yetkazib berish haqi ilovadan tashqarida to'lanadi.
+Biz joylashuvni fonda **yig'maymiz** va kelishuv chatiga o'zingiz yuborgan nuqtadan boshqa koordinatalaringizni olmaymiz: shaharni formaga qo'yish uchun geolokatsiya telefonda qoladi. Telefondagi kontaktlarni o'qimaymiz, to'lov ma'lumotlarini yig'maymiz, reklama identifikatorlari va analitikadan foydalanmaymiz. Ilova ishlashi haqida ma'lumot yig'adigan xizmatlardan faqat Firebase Crashlytics'dan — nosozliklar haqidagi hisobotlar uchun foydalanamiz (quyiga qarang). Yetkazib berish haqi ilovadan tashqarida to'lanadi.
 
 ### Telefon raqami va tasdiqlash kodi
 
@@ -37,13 +38,17 @@ Xalqaro SMS pullik, shuning uchun ularning bir sutkadagi soni cheklangan — bit
 
 ### Pasport surati va selfi
 
+- Pasport tekshiruvi ixtiyoriy: e'lon joylash va javob berish uchun u shart emas, tasdiqlangan telefon raqami yetarli. Tekshiruvdan profilda o'tish mumkin; tasdiqlangandan keyin profilda boshqa foydalanuvchilar ko'radigan «Pasport tasdiqlangan» belgisi paydo bo'ladi.
 - Suratlar faqat moderator sizning haqiqiy inson ekaningizga va hujjat sizniki ekaniga ishonch hosil qilishi uchun kerak. Yuz va hujjatlarni avtomatik aniqlash yo'q, pasport ma'lumotlarini bazaga ko'chirib yozmaymiz.
 - Suratlar yopiq fayl omborida saqlanadi. Ularni faqat ko'pi bilan 10 daqiqa amal qiladigan vaqtinchalik havola orqali ochish mumkin. Moderatorning Telegram-botiga ismingiz, telefon raqamingiz va shunday havola keladi — suratlarning o'zi Telegram'ga yuborilmaydi.
 - Tekshiruv rad etilsa, suratlar darhol o'chiriladi. Olingan, lekin tekshiruvga yuborilmagan suratlar taxminan bir soatdan keyin o'chiriladi. Tasdiqlangan suratlar akkaunt mavjud ekan saqlanadi va akkaunt o'chirilganda o'chiriladi.
 
-### Chatdagi joylashuv
+### Joylashuv
 
-Joylashuvni faqat kelishuv chatiga yuborish mumkin — «hozir qayerdaman» yoki xaritada tanlangan uchrashuv nuqtasi. Geolokatsiyaga ruxsatni ilova bilan tanishuvning ixtiyoriy qadamida yoki tugmani bosganingizda so'raydi; geolokatsiya faqat ilova ochiq turganda ishlaydi. Yuborilgan nuqtani faqat shu kelishuvning ikkinchi tomoni ko'radi. Fonda geolokatsiya yo'q. Uchrashuv joyini tanlash uchun xaritani Android'da Google Maps (Google LLC), iPhone'da Apple Maps ko'rsatadi — 2-bo'limga qarang.
+Ilova geolokatsiyadan faqat u ochiq turganda va faqat siz ruxsat bergan bo'lsangiz foydalanadi. Ruxsatni ilova bilan tanishuvning ixtiyoriy qadamida, kirgandan keyin bir marta (agar bu qadamni o'tkazib yuborgan bo'lsangiz) yoki chatda «Joylashuvni yuborish» tugmasini bosganingizda so'raydi. Fonda geolokatsiya yo'q.
+
+- **Reys yoki jo'natma formasidagi shahar.** «O'zbekistondan» yo'nalishida reys yoki jo'natma yaratganingizda ilova formaga sizga eng yaqin O'zbekiston shahrini qo'yadi. Shahar telefonda aniqlanadi, koordinatalar bizga yuborilmaydi — serverga faqat e'lonni joylagan paytingizda formada turgan shahar keladi. Shaharni o'zgartirish mumkin; geolokatsiyaga ruxsat bo'lmasa, Toshkent qo'yiladi.
+- **Kelishuv chati.** Joylashuvni faqat kelishuv chatiga yuborish mumkin — «hozir qayerdaman» yoki xaritada tanlangan uchrashuv nuqtasi. Yuborilgan nuqtani faqat shu kelishuvning ikkinchi tomoni ko'radi. Uchrashuv joyini tanlash uchun xaritani Android'da Google Maps (Google LLC), iPhone'da Apple Maps ko'rsatadi — 2-bo'limga qarang.
 
 ### Chatdagi rasmlar
 
@@ -52,6 +57,14 @@ Joylashuvni faqat kelishuv chatiga yuborish mumkin — «hozir qayerdaman» yoki
 - Rasm ustidan shikoyat qilinsa, moderatorning Telegram-botiga faqat shu rasmga 10 daqiqa amal qiladigan havola keladi. Rasmning o'zi Telegram'ga yuborilmaydi, chatdagi boshqa xabarlarni moderator ko'rmaydi.
 - Rasm haqidagi push-bildirishnomada faqat «📷 Rasm» yozuvi ko'rinadi — suratning o'zi emas.
 - Yuborilgan rasmlar yuboruvchining akkaunti mavjud ekan saqlanadi va akkaunt o'chirilganda o'chiriladi. Yuklangan, lekin yuborilmagan rasmlar taxminan bir soatdan keyin avtomatik o'chiriladi.
+
+### Nosozliklar haqidagi hisobotlar
+
+- Ilova ishdan chiqsa yoki unda ushlanmagan xato yuz bersa, nosozlik haqidagi hisobot Firebase Crashlytics'ga yuboriladi — bu Google LLC xizmati bo'lib, uni bizning topshirig'imiz bilan qayta ishlaydi.
+- Hisobotda: chaqiruvlar steki (koddagi xato yuz bergan joy), qurilma modeli, OT va ilova versiyasi, nosozlik vaqti, nosozlik paytidagi qurilma holati haqida texnik ma'lumotlar (masalan, bo'sh xotira), ilova o'rnatilishining texnik identifikatorlari va akkauntingizning bizdagi ichki identifikatori — ism, telefon raqami va e-mailsiz tasodifiy kod. Xabarlar matni, rasmlar, pasport ma'lumotlari va koordinatalar hisobotlarga tushmaydi.
+- Hisobotlar faqat nosozliklarni topish va tuzatish uchun kerak; reklama va xatti-harakatlarni tahlil qilish uchun ishlatilmaydi.
+- Hisobotlar faqat App Store va Google Play'dagi ilova versiyalaridan yuboriladi; test yig'malarida yig'ish o'chirilgan.
+- Hisobotlar Google serverlarida, jumladan AQSHda, 90 kun saqlanadi, keyin o'chiriladi.
 
 ## 2. Ma'lumotlaringizni kim ko'radi
 
@@ -64,17 +77,18 @@ Joylashuvni faqat kelishuv chatiga yuborish mumkin — «hozir qayerdaman» yoki
   - tasdiqlash kodlarini yuborish — Telegram Gateway, Eskiz (jumladan xalqaro SMS);
   - moderatorning Telegram-boti — Telegram;
   - kirish — Apple, Google;
+  - nosozliklar haqidagi hisobotlar — Firebase Crashlytics (Google LLC): 1-bo'limda tavsiflangan nosozlik hisobotini va qurilmaning IP-manzilini oladi; serverlar jumladan AQSHda;
   - chatda uchrashuv joyini tanlashda xaritani ko'rsatish — Android'da Google Maps (Google LLC), iPhone'da Apple Maps: biz ularga ismingiz, telefon raqamingiz va xabarlaringizni bermaymiz; xaritani ko'rsatish uchun ular qurilmadan xaritaning ko'rsatilayotgan hududini, IP-manzilni va qurilma haqidagi texnik ma'lumotlarni oladi hamda ularni o'z maxfiylik siyosatiga muvofiq qayta ishlaydi.
 
 Biz ma'lumotlarni sotmaymiz va reklama tarmoqlariga bermaymiz.
 
 ## 3. Ma'lumotlar qayerda va qancha muddat saqlanadi
 
-Barcha davlatlardagi foydalanuvchilarning ma'lumotlari bir joyda — yuqorida ko'rsatilgan pudratchilarning serverlarida, jumladan O'zbekistondan va siz turgan davlatdan tashqarida saqlanadi. Ma'lumotlarni akkauntingiz mavjud ekan saqlaymiz. Server jurnallari 30 kungacha saqlanadi. Pasport surati, selfi, chatdagi rasmlar va xalqaro SMS yozuvlarining saqlanish muddatlari 1-bo'limda keltirilgan.
+Barcha davlatlardagi foydalanuvchilarning ma'lumotlari bir joyda — yuqorida ko'rsatilgan pudratchilarning serverlarida, jumladan O'zbekistondan va siz turgan davlatdan tashqarida saqlanadi. Ma'lumotlarni akkauntingiz mavjud ekan saqlaymiz. Server jurnallari 30 kungacha, Firebase Crashlytics'dagi nosozlik hisobotlari 90 kun saqlanadi. Pasport surati, selfi, chatdagi rasmlar va xalqaro SMS yozuvlarining saqlanish muddatlari 1-bo'limda keltirilgan.
 
 ## 4. Akkauntni o'chirish
 
-Ilovada: **Profil → Akkauntni o'chirish**. Biz profilni, telefon raqamini, pasport surati va selfini, jo'natma rasmlarini, e'lonlar va xabarlarni (yuborilgan joylashuv va chatlardagi rasmlar bilan birga — yuborilganlari ham, yuklangan, lekin yuborilmaganlari ham) o'chiramiz. Boshqa foydalanuvchilar haqida qoldirgan sharhlaringiz qoladi, lekin ismingizsiz. Xalqaro SMS yozuvlari (1-bo'lim) yuborilganidan keyin 30 kungacha qoladi — raqam, ism va e-mailsiz, — keyin o'chiriladi. Ishdagi kelishuvingiz bor ekan (javob qabul qilingan yoki jo'natma hamrohga topshirilgan), akkauntni o'chirib bo'lmaydi — avval kelishuvni yakunlang yoki bekor qiling. Akkauntni info@kargofly.uz manziliga akkauntga bog'langan e-mail orqali yozib ham o'chirish mumkin; muddat — 30 kungacha.
+Ilovada: **Profil → Akkauntni o'chirish**. Biz profilni, telefon raqamini, pasport surati va selfini, jo'natma rasmlarini, e'lonlar va xabarlarni (yuborilgan joylashuv va chatlardagi rasmlar bilan birga — yuborilganlari ham, yuklangan, lekin yuborilmaganlari ham) o'chiramiz. Boshqa foydalanuvchilar haqida qoldirgan sharhlaringiz qoladi, lekin ismingizsiz. Xalqaro SMS yozuvlari (1-bo'lim) yuborilganidan keyin 30 kungacha qoladi — raqam, ism va e-mailsiz, — keyin o'chiriladi. Nosozlik hisobotlari (1-bo'lim) 90 kundan keyin o'zi o'chiriladi; ularda ism, telefon raqami va e-mail yo'q. Ishdagi kelishuvingiz bor ekan (javob qabul qilingan yoki jo'natma hamrohga topshirilgan), akkauntni o'chirib bo'lmaydi — avval kelishuvni yakunlang yoki bekor qiling. Akkauntni info@kargofly.uz manziliga akkauntga bog'langan e-mail orqali yozib ham o'chirish mumkin; muddat — 30 kungacha.
 
 ## 5. Yosh chegarasi
 
