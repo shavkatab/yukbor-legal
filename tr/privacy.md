@@ -6,7 +6,7 @@ lang: tr
 
 [Русский](../../privacy/) · [O‘zbekcha](../../uz/privacy/) · **Türkçe**
 
-_Sürüm tarihi: 8 Kasım 2026_
+_Sürüm tarihi: 9 Kasım 2026_
 
 KargoFly, gönderi göndermek isteyenlerin Özbekistan ile diğer ülkeler — Türkiye, Rusya, Güney Kore, ABD, Çin, BAE, Kazakistan, Suudi Arabistan, Almanya, Kırgızistan ve Tacikistan — arasında uçakla veya arabayla seyahat eden yolcuları (arabayla yalnızca Kazakistan, Kırgızistan, Tacikistan ve Rusya ile) bulmasına yardımcı olan bir mobil uygulamadır. Bu politika hangi verileri topladığımızı, neden topladığımızı, bunları kimlerin gördüğünü ve nasıl silebileceğinizi açıklar.
 
@@ -25,6 +25,7 @@ KargoFly, gönderi göndermek isteyenlerin Özbekistan ile diğer ülkeler — T
 | Anlaşma sohbetindeki fotoğraflar | kendiniz gönderirsiniz: kamerayla çeker veya galeriden seçersiniz | anlaşmanın diğer tarafıyla fotoğraf paylaşmak |
 | Konum — anlaşma sohbetine gönderdiğiniz nokta | yalnızca “Konum gönder” düğmesine kendiniz bastığınızda | buluşma yerinde anlaşmak |
 | Anlık bildirim (push) token'ı, uygulama dili | cihazınızdan | bildirimleri kendi dilinizde göndermek |
+| Uygulama içi bildirimler: olay türü (yeni yanıt, anlaşma durumunun değişmesi, yorum, ilan değişikliği, gönderi süresi, pasaport doğrulama kararı), anlaşma veya gönderi kimliği ve metin için sayılar (durum, yıldız, şehirler, ağırlık, fiyat) — ad, fotoğraf, telefon numarası ve mesaj metni olmadan | otomatik olarak | uygulamadaki bildirim listesini göstermek |
 | Sunucunun teknik kayıtları (IP adresi, istek zamanı) | otomatik olarak | güvenlik ve hataların giderilmesi |
 | Çökme raporları ve tanılama verileri: çağrı yığını, cihaz modeli, işletim sistemi ve uygulama sürümü, çökme zamanı, hesabın dahili kimliği (ad, telefon numarası ve e-posta olmadan) | çökme anında otomatik olarak, yalnızca App Store ve Google Play'deki uygulama sürümlerinde | çökmeleri bulmak ve düzeltmek |
 
@@ -84,11 +85,11 @@ Verileri satmayız ve reklam ağlarına aktarmayız.
 
 ## 3. Veriler nerede ve ne kadar süre saklanır
 
-Tüm ülkelerdeki kullanıcıların verileri bir arada, yukarıda belirtilen hizmet sağlayıcıların sunucularında saklanır; bu sunucular Özbekistan'ın ve bulunduğunuz ülkenin dışında da olabilir. Verileri hesabınız var olduğu sürece saklarız. Sunucu kayıtları en fazla 30 gün, Firebase Crashlytics'teki çökme raporları 90 gün saklanır. Pasaport fotoğrafı, selfie, sohbet fotoğrafları ve uluslararası SMS kayıtlarının saklama süreleri Bölüm 1'de yer alır.
+Tüm ülkelerdeki kullanıcıların verileri bir arada, yukarıda belirtilen hizmet sağlayıcıların sunucularında saklanır; bu sunucular Özbekistan'ın ve bulunduğunuz ülkenin dışında da olabilir. Verileri hesabınız var olduğu sürece saklarız. Sunucu kayıtları en fazla 30 gün, uygulama içi bildirimler 30 gün, Firebase Crashlytics'teki çökme raporları 90 gün saklanır. Pasaport fotoğrafı, selfie, sohbet fotoğrafları ve uluslararası SMS kayıtlarının saklama süreleri Bölüm 1'de yer alır.
 
 ## 4. Hesabın silinmesi
 
-Uygulamada: **Profil → Hesabı sil**. Profilinizi, telefon numaranızı, pasaport fotoğrafınızı ve selfie'nizi, gönderi fotoğraflarını, ilanları ve mesajları (gönderilen konum ve sohbetlerdeki fotoğraflarla birlikte — hem gönderilmiş hem de yüklenip gönderilmemiş olanlar) sileriz. Diğer kullanıcılar hakkında yazdığınız yorumlar kalır, ancak adınız olmadan. Uluslararası SMS kayıtları (Bölüm 1) gönderimden sonra en fazla 30 gün kalır — numara, ad ve e-posta olmadan — ardından silinir. Çökme raporları (Bölüm 1) 90 gün sonra kendiliğinden silinir; bunlarda ad, telefon numarası ve e-posta yer almaz. Devam eden bir anlaşmanız varken (yanıt kabul edilmiş veya gönderi yolcuya teslim edilmişse) hesap silinemez — önce anlaşmayı tamamlayın veya iptal edin. Hesabınızı, hesaba bağlı e-posta adresinizden info@kargofly.uz adresine yazarak da sildirebilirsiniz; bu en fazla 30 gün sürer.
+Uygulamada: **Profil → Hesabı sil**. Profilinizi, telefon numaranızı, pasaport fotoğrafınızı ve selfie'nizi, gönderi fotoğraflarını, ilanları, mesajları (gönderilen konum ve sohbetlerdeki fotoğraflarla birlikte — hem gönderilmiş hem de yüklenip gönderilmemiş olanlar) ve uygulama içi bildirimleri sileriz. Diğer kullanıcılar hakkında yazdığınız yorumlar kalır, ancak adınız olmadan. Uluslararası SMS kayıtları (Bölüm 1) gönderimden sonra en fazla 30 gün kalır — numara, ad ve e-posta olmadan — ardından silinir. Çökme raporları (Bölüm 1) 90 gün sonra kendiliğinden silinir; bunlarda ad, telefon numarası ve e-posta yer almaz. Devam eden bir anlaşmanız varken (yanıt kabul edilmiş veya gönderi yolcuya teslim edilmişse) hesap silinemez — önce anlaşmayı tamamlayın veya iptal edin. Hesabınızı, hesaba bağlı e-posta adresinizden info@kargofly.uz adresine yazarak da sildirebilirsiniz; bu en fazla 30 gün sürer.
 
 ## 5. Yaş sınırı
 
