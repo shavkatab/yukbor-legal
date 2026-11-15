@@ -6,7 +6,7 @@ lang: uz
 
 [Русский](../../privacy/) · **O‘zbekcha** · [Türkçe](../../tr/privacy/)
 
-_2026-yil 8-noyabrdagi tahrir_
+_2026-yil 9-noyabrdagi tahrir_
 
 KargoFly — jo'natuvchilarga O'zbekiston va boshqa davlatlar — Turkiya, Rossiya, Janubiy Koreya, AQSH, Xitoy, BAA, Qozog'iston, Saudiya Arabistoni, Germaniya, Qirg'iziston va Tojikiston o'rtasida samolyotda uchadigan yoki mashinada yuradigan sayohatchilarni topishga yordam beradigan mobil ilova (mashinada — faqat Qozog'iston, Qirg'iziston, Tojikiston va Rossiya bilan). Ushbu siyosat qanday ma'lumotlarni yig'ishimizni, nima uchun yig'ishimizni, ularni kim ko'rishini va ularni qanday o'chirish mumkinligini tushuntiradi.
 
@@ -25,6 +25,7 @@ KargoFly — jo'natuvchilarga O'zbekiston va boshqa davlatlar — Turkiya, Rossi
 | Kelishuv chatidagi rasmlar | o'zingiz yuborasiz: kamera bilan olasiz yoki galereyadan tanlaysiz | kelishuvning ikkinchi tomoni bilan rasm almashish |
 | Joylashuv — kelishuv chatiga o'zingiz yuborgan nuqta | faqat o'zingiz «Joylashuvni yuborish» tugmasini bosganingizda | uchrashuv joyini kelishib olish |
 | Push-bildirishnomalar tokeni, ilova tili | qurilmadan | bildirishnomalarni o'z tilingizda yuborish |
+| Ilova ichidagi bildirishnomalar: hodisa turi (yangi javob, kelishuv holatining o'zgarishi, sharh, e'lon o'zgarishi, jo'natma muddati, pasport tekshiruvi bo'yicha qaror), kelishuv yoki jo'natma identifikatori va matn uchun raqamlar (holat, yulduzlar, shaharlar, vazn, narx) — ismlar, rasmlar, telefon raqamlari va xabarlar matnisiz | avtomatik | ilovada bildirishnomalar ro'yxatini ko'rsatish |
 | Serverning texnik jurnallari (IP-manzil, so'rov vaqti) | avtomatik | xavfsizlik va xatolarni tuzatish |
 | Nosozliklar haqidagi hisobotlar va diagnostika: chaqiruvlar steki, qurilma modeli, OT va ilova versiyasi, nosozlik vaqti, akkauntning ichki identifikatori (ism, telefon raqami va e-mailsiz) | nosozlik yuz berganda avtomatik, faqat App Store va Google Play'dagi ilova versiyalarida | nosozliklarni topish va tuzatish |
 
@@ -84,11 +85,11 @@ Biz ma'lumotlarni sotmaymiz va reklama tarmoqlariga bermaymiz.
 
 ## 3. Ma'lumotlar qayerda va qancha muddat saqlanadi
 
-Barcha davlatlardagi foydalanuvchilarning ma'lumotlari bir joyda — yuqorida ko'rsatilgan pudratchilarning serverlarida, jumladan O'zbekistondan va siz turgan davlatdan tashqarida saqlanadi. Ma'lumotlarni akkauntingiz mavjud ekan saqlaymiz. Server jurnallari 30 kungacha, Firebase Crashlytics'dagi nosozlik hisobotlari 90 kun saqlanadi. Pasport surati, selfi, chatdagi rasmlar va xalqaro SMS yozuvlarining saqlanish muddatlari 1-bo'limda keltirilgan.
+Barcha davlatlardagi foydalanuvchilarning ma'lumotlari bir joyda — yuqorida ko'rsatilgan pudratchilarning serverlarida, jumladan O'zbekistondan va siz turgan davlatdan tashqarida saqlanadi. Ma'lumotlarni akkauntingiz mavjud ekan saqlaymiz. Server jurnallari 30 kungacha, ilova ichidagi bildirishnomalar 30 kun, Firebase Crashlytics'dagi nosozlik hisobotlari 90 kun saqlanadi. Pasport surati, selfi, chatdagi rasmlar va xalqaro SMS yozuvlarining saqlanish muddatlari 1-bo'limda keltirilgan.
 
 ## 4. Akkauntni o'chirish
 
-Ilovada: **Profil → Akkauntni o'chirish**. Biz profilni, telefon raqamini, pasport surati va selfini, jo'natma rasmlarini, e'lonlar va xabarlarni (yuborilgan joylashuv va chatlardagi rasmlar bilan birga — yuborilganlari ham, yuklangan, lekin yuborilmaganlari ham) o'chiramiz. Boshqa foydalanuvchilar haqida qoldirgan sharhlaringiz qoladi, lekin ismingizsiz. Xalqaro SMS yozuvlari (1-bo'lim) yuborilganidan keyin 30 kungacha qoladi — raqam, ism va e-mailsiz, — keyin o'chiriladi. Nosozlik hisobotlari (1-bo'lim) 90 kundan keyin o'zi o'chiriladi; ularda ism, telefon raqami va e-mail yo'q. Ishdagi kelishuvingiz bor ekan (javob qabul qilingan yoki jo'natma hamrohga topshirilgan), akkauntni o'chirib bo'lmaydi — avval kelishuvni yakunlang yoki bekor qiling. Akkauntni info@kargofly.uz manziliga akkauntga bog'langan e-mail orqali yozib ham o'chirish mumkin; muddat — 30 kungacha.
+Ilovada: **Profil → Akkauntni o'chirish**. Biz profilni, telefon raqamini, pasport surati va selfini, jo'natma rasmlarini, e'lonlarni, xabarlarni (yuborilgan joylashuv va chatlardagi rasmlar bilan birga — yuborilganlari ham, yuklangan, lekin yuborilmaganlari ham) va ilova ichidagi bildirishnomalarni o'chiramiz. Boshqa foydalanuvchilar haqida qoldirgan sharhlaringiz qoladi, lekin ismingizsiz. Xalqaro SMS yozuvlari (1-bo'lim) yuborilganidan keyin 30 kungacha qoladi — raqam, ism va e-mailsiz, — keyin o'chiriladi. Nosozlik hisobotlari (1-bo'lim) 90 kundan keyin o'zi o'chiriladi; ularda ism, telefon raqami va e-mail yo'q. Ishdagi kelishuvingiz bor ekan (javob qabul qilingan yoki jo'natma hamrohga topshirilgan), akkauntni o'chirib bo'lmaydi — avval kelishuvni yakunlang yoki bekor qiling. Akkauntni info@kargofly.uz manziliga akkauntga bog'langan e-mail orqali yozib ham o'chirish mumkin; muddat — 30 kungacha.
 
 ## 5. Yosh chegarasi
 
